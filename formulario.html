@@ -1,38 +1,60 @@
-<!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <title>htmlycss</title>
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <ul class="barra">
-            <li><a href="1.html">HTML</a></li>
-            <li><a href="css2.html">CSS</a></li>
-            <li><a href="listas.html">Listas</a></li>
-            <li><a href="tabla.html">Tabla</a></li>
-            <li><a href="formulario.html">Formulario</a></li>
-            <li><a href="atributos.html">Atributos</a></li>
-            <li><a href="Modelodecajas.html">Modelo de cajas</a></li>
-            <li><a href="barra.html">Barra de navegación</a></li>
-            </ul>
-        <h1>Formularios</h1>
-        <p>En HTML, un formulario es un elemento que se utiliza para recopilar información del usuario, como su nombre, correo electrónico,
-             contraseña, etc. Los formularios se pueden utilizar para enviar datos a una página web o para realizar otras acciones en la 
-             página. </p>
+<head>
+	<title>pago</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<center><h1>REALICE SU COMPRA INGRESANDO LOS SIGUIENTES DATOS</h1></center>
+	<br>
+	 <label for="interior">
+          <input id="interior" type="checkbox" value="interior" name="interior-exterior"><font color="#633974 ">1</font>
+        </label>
         <br>
-        <p>Los elementos básicos de un formulario en HTML son: </p>
-        <ul>
-            <li>form: define el formulario y sus atributos, como la acción (la página a la que se enviarán los datos), el método (GET o POST) y el encabezado</li>
-            <li>input: define un campo de entrada de datos, como un campo de texto, un botón de opción, una casilla de verificación, un botón de envío, etc. </li>
-            <li>textarea: define un área de texto para que el usuario ingrese información de varias líneas.</li>
-            <li>select: define una lista desplegable para que el usuario seleccione una opción de una lista.</li>
-            <li>label: define una etiqueta descriptiva para un campo de entrada, para que el usuario sepa qué tipo de información debe ingresar.</li>
-            <li>button: define un botón que se puede hacer clic para enviar el formulario. </li>
-        </ul>
+        <label for="exterior">
+          <input id="exterior" type="checkbox" value="exterior" name="interior-exterior"><font color="#633974 ">2</font>
+        </label>
         <br>
-        <img src="formu.jpeg">
+         <input id="exterior" type="checkbox" value="exterior" name="interior-exterior"><font color="#633974 ">3</font>
+        </label>
+        <h2>Si es más de 3 ingrese la cantidad que desea</h2>
+        <input type="text" placeholder="cantidad"></label>
+
         <br>
-           <a href="for.html" class="boton">Ejemplo</a>
-        </body>
-        </html>
+        <hr color="black" size="2">
+        <br>
+	 <form method="jessicacamey117@gmail.com">
+
+        <h2>Ingrese su direccion</h2>
+        <input type="text" placeholder="direccion"></label>
+        <h2>Ingrese su nombre</h2>
+        <input type="text" placeholder="nombre"></label>
+        <h2>Ingrese su apellido</h2>
+        <input type="text" placeholder="apellido" required><br>
+         <h2>Ingrese Detalles especificos de su ubicacion</h2>
+        <input type="text" placeholder="detalles"></label>
+        <br>
+        <hr color="black" size="2">
+        <br>
+
+        	 <label for="interior">
+          <input id="interior" type="radio" value="interior" name="interior-exterior"><font color="#633974 ">Credito</font>
+        </label>
+        <br>
+        <label for="exterior">
+          <input id="exterior" type="radio" value="exterior" name="interior-exterior"><font color="#633974 ">Debito</font>
+        </label>
+        <br>
+        <h2>Ingrese el nombre del propietario de la tarjeta</h2>
+        <input type="text" placeholder="nombre del propietario de la tarjeta"required><br>
+        <h2>Ingrese el numero de la tarjeta</h2>
+        <input type="text" placeholder="numero de la tarjeta" required><br>
+        <h2>Ingrese fecha de vencimiento de la tarjeta</h2>
+        <input type="text" placeholder="numero de la tarjeta" required>
+        <h2>Ingrese el numero que se encuentra atras de la tarjeta</h2>
+        <input type="text" placeholder="numero de la tarjeta" required>
+        <form action="mailto:jessicacamey117@gmail.com" method="post" enctype="text/plain">
+        	<br>
+        	<br>
+        	 <button type="submit">Enviar</button>
+        <button type="reset">Limpiar</button>
+      </form>
